@@ -1,7 +1,6 @@
 resource "aws_security_group" "allow-ssh" {
-  provider = "aws.Ohio"
   name = "allow-ssh"
-  description = "SG para liberar acesso SSH (Secure Shell)"
+  description = "SG para liberar acesso SSH"
   ingress {
     from_port = 22
     protocol  = "TCP"
