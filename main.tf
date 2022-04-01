@@ -1,15 +1,11 @@
 provider "aws" {
+  alias = "ohio"
   region = "us-east-2"
-}
-
-provider "aws" {
-  alias = "oregon"
-  region = "us-west-2"
 }
 
 resource "aws_instance" "desenvolvedor" {
   ami = var.amis.ohio
-  instance_type = "t2.micro"
+  instance_type = var.instance_type_t2_micro
   key_name = var.key_name
   tags = {
     Name = "desenvolvedor_01"
@@ -18,7 +14,12 @@ resource "aws_instance" "desenvolvedor" {
   vpc_security_group_ids = [aws_security_group.allow-ssh.id]
 }
 
-
+/*
+provider "aws" {
+  alias = "oregon"
+  region = "us-west-2"
+}
+*/
 
 /*
 
