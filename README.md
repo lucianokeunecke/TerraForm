@@ -6,4 +6,4 @@ Por questões de segurança, não serão compartilhados a chave pública e priva
 
 Imagens da criação da máquina virtual se encontram na pasta Print Maquina Virtual AWS
 
-Trabalho da disciplina de Integração Continua e DevOps.
+Trabalho apresentando na disciplina de Integração Continua e DevOps.
