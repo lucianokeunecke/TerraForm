@@ -1,10 +1,4 @@
-# Instituto: INFNET
-
-# Curso: Pós-Graduação MIT em Engenharia de Software com Java
-
-# Disciplina: Integração Continua e DevOps
-
-# TerraForm
+Trabalho apresentado na disciplina de Integração Continua e DevOps, do curso de Pós-Graduação MIT em Engenharia de Software com Java, realizado no instituto INFNET.
 
 Este script tem por objetivo criar uma máquina virtual na AWS, utilizando como ferramenta o TerraForm.
 
